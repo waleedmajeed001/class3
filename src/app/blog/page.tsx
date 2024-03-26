@@ -9,7 +9,7 @@ export default function GiveName() {
       <div>
             My name is Waleed Majeed.
             <br/>
-            <button type="button" onClick={() => router.push('/name/address')}>
+            <button type="button" onClick={() => router.push('/blog/address')}>
               Get Address
             </button>
       

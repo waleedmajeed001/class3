@@ -1,4 +1,4 @@
-function address() {
-    return <h1>This is my frist blog</h1>
+function Password() {
+    return <h1>Hello, Please enter your Password.</h1>
   }
-  export default address;
+  export default Password;
