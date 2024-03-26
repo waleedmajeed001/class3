@@ -10,7 +10,7 @@ const router = useRouter();
           My name is Waleed Majeed.
           <br/>
           <button type="button" onClick={() => router.push('/blog/address')}>
-            Get Address
+            Click to login
           </button>
       
     </div>
