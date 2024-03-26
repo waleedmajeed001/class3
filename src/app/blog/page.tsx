@@ -4,15 +4,15 @@
 import { useRouter } from 'next/navigation';
 
 export default function GiveName() {
-  const router = useRouter();
-    return (
-      <div>
-            My name is Waleed Majeed.
-            <br/>
-            <button type="button" onClick={() => router.push('/blog/address')}>
-              Get Address
-            </button>
+const router = useRouter();
+  return (
+    <div>
+          My name is Waleed Majeed.
+          <br/>
+          <button type="button" onClick={() => router.push('/blog/address')}>
+            Get Address
+          </button>
       
-      </div>
-    )
-  }
+    </div>
+  )
+}
